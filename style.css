@@ -8,13 +8,14 @@ p {
     font-family: monospace;
 }
 
-footer {
-    background-color:white;
-    text-align: center;
-    height: 45px;
-    position: sticky;
-    bottom: 0px;
-    padding: 20px;
+footer {                                   /* Set the footer appearance for the website */
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: white;
+   color: black;
+   text-align: center;
 }
 
 body {
@@ -23,6 +24,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-image: url("https://img.freepik.com/free-photo/abstract-black-white-bokeh-background_1962-1324.jpg?size=626&ext=jpg");
+      
 }
 
 @font-face {
@@ -54,7 +57,7 @@ body {
    
 
 }
-h1 {
+h1, h2 {
     padding-left: 40px;
     padding-top: 20px;
     font-family: monospace;
@@ -74,6 +77,36 @@ img {
 .btn {
  margin-left: 50px;
 }
+
+#navbarNav {
+    position: absolute; left: 70%;
+    margin-right: 20%;
+
+}
+
+@media only screen and (max-width: 990px) {   
+#navbarNav {position: relative;}
+}
+
+.rowfixed {
+    padding: 1em;
+    margin: 1em;
+}
+
+@media only screen and (max-width: 600px) { /* Change some properties on Extra small devices (phones, 600px and down) */
+
+    .col-s-7, .col-7 { width: 90%; }
+    .spacing{padding-bottom:20%;} 
+    .content {width: 90%;}   
+
+}
+@media only screen and (max-width: 800px) { /* Change some properties on Extra small devices (phones, 800px and down) */
+    .col-7 { width: 100%; }
+
+}
+
+
+
 
 
 

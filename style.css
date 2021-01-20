@@ -1,0 +1,82 @@
+#about-image{
+    float: left;
+    padding: 20px;
+}
+
+p {
+    padding: 15px;
+    font-family: monospace;
+}
+
+footer {
+    background-color:white;
+    text-align: center;
+    height: 45px;
+    position: sticky;
+    bottom: 0px;
+    padding: 20px;
+}
+
+body {
+    opacity: 0.9;
+    background-color: rgb(236, 202, 206);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'Avocadocreamy';
+    src: url(/Users/hapvskully/Desktop/bootcamp/html101/assets/AvocadoCreamy.ttf);
+}
+
+.navbar {
+    font-family: monospace;
+    background-image: url(https://wallpapercave.com/wp/wp2697693.jpg);
+    border: 3px dotted pink;
+    opacity: 12;
+    padding: 5px;
+}
+
+.navbar-brand {
+    font-family: 'Avocadocreamy';
+    font-size: xx-large;
+    font-weight: normal;
+    background-color: white;
+    padding: 0px;
+
+}
+
+.nav-link {
+    font-weight: bolder;
+    font-size: large;
+    background-color: white;
+   
+
+}
+h1 {
+    padding-left: 40px;
+    padding-top: 20px;
+    font-family: monospace;
+    text-align: center;
+}
+
+img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    
+}
+.form-group {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.btn {
+ margin-left: 50px;
+}
+
+
+
+
+
+

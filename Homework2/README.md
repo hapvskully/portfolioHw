@@ -5,7 +5,3 @@ On each page Navbar is consistent and Footer is sticky.
 # URLS
 * The URLs of the deployed applications: https://hapvskully.github.io/portfolioHw/
 * The URLs of the GitHub repositories  : https://github.com/hapvskully/portfolioHw.git 
-
-# Validation
-HTML validation services were used to ensure that each page has valid HTML( https://html5.validator.nu/ 
-which had no errors or warnings to show.

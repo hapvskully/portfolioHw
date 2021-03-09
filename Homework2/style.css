@@ -30,11 +30,11 @@ body {
 
 @font-face {
     font-family: 'Avocadocreamy';
-    src: url(./AvocadoCreamy.ttf);
+    src: url(/Users/hapvskully/Desktop/bootcamp/html101/assets/AvocadoCreamy.ttf);
 }
 
 .navbar {
-    /* font-family: monospace; */
+    font-family: monospace;
     background-image: url(https://wallpapercave.com/wp/wp2697693.jpg);
     border: 3px dotted pink;
     opacity: 12;
@@ -86,19 +86,6 @@ img {
 
 @media only screen and (max-width: 990px) {   
 #navbarNav {position: relative;}
-}
-
-.rowfixed {
-    padding: 1em;
-    margin: 1em;
-}
-
-@media only screen and (max-width: 600px) { /* Change some properties on Extra small devices (phones, 600px and down) */
-
-    .col-s-7, .col-7 { width: 90%; }
-    .spacing{padding-bottom:20%;} 
-    .content {width: 90%;}   
-
 }
 
 
